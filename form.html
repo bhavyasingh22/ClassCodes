@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My First Form</h1>
+    <form>
+        <fieldset>
+            <legend>My First Table</legend>
+            <form action="subform.html" method="get">
+        <label for="Name">Name-</label> <br>
+        <input type="text" id="Name"> <br>
+        <br>
+        <label for="Branch">Branch-</label> <br>
+        <input type="text" id="Branch"> <br>
+        <br>
+        <label for="Number">Number-</label> <br>
+        <input type="number" id="Number"> <br>
+        <br>
+        <label for="Date">Date-</label> <br>
+        <input type="date" id="Date"><br>
+        <br>
+        <label for="File">Choose a File</label> <br>
+        <input type="file" id="File"> <br>
+        <br>
+        <label for="">select your gender-</label> 
+        <input type="radio" name="gender"/> female 
+        <input type="radio" name="gender"> male <br>
+        <br>
+        <label for="">which of the following tag is used to create hyperlink in html-</label> <br>
+        <input type="radio" name="hyperlink"/> img tag
+        <input type="radio" name="hyperlink"/> a tag
+        <input type="radio" name="hyperlink"/> p tag
+        <input type="radio" name="hyperlink"/> link tag <br>
+        <br>
+        <label for="state">select your state</label>
+        <select name="state" id="state">
+            <option value="" selected disabled> choose a state</option>
+            <option value="U.P">U.P</option>
+            <option value="M.P">M.P</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Rajasthan">Rajasthan</option>
+        </select><br>
+        <br>
+        <label for="">select your hobbies-</label>
+        <input type="checkbox" name="hobbies" value="reading"/>Reading
+        <input type="checkbox" name="hobbies" value="singing"/>Singing
+        <input type="checkbox" name="hobbies" value="dancing"/>Dancing
+        <input type="checkbox" name="hobbies" value="traveling"/>Traveling <br>
+        <br>
+        <input type="submit" value="Registration">
+    </form>
+        </fieldset>
+    </form>
+</body>
+</html>
